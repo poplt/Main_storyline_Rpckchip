@@ -2,11 +2,12 @@ echo [boot.cmd] run boot.cmd scripts ...
 
 if test -e ${devtype} ${devnum}:${distro_bootpart} /uEnv/uEnv.txt; then
     echo [boot.cmd] load uEnv.txt ...
-    load ${devtype} ${devnum}:${distro_bootpart} ${env_addr_r} /uEnv/uEnv.txt
-    env import -t ${env_addr_r} 0x8000
+    load ${devtype} ${devnum}:${distro_bootpart} ${scriptaddr} /uEnv/uEnv.txt
+    env import -t ${scriptaddr} 0x8000
 
     part number ${devtype} ${devnum} "rootfs" rootfs_part
-    setenv bootargs ${bootargs} root=/dev/mmcblk${devnum}p${rootfs_part} boot_part=${distro_bootpart} ${cmdline}
+    part uuid ${devtype} ${devnum}:${rootfs_part} rootfs_uuid
+    setenv bootargs ${bootargs} root=PARTUUID=${rootfs_uuid} boot_part=${distro_bootpart} ${cmdline}
     printenv bootargs
 
     if test -e ${devtype} ${devnum}:${distro_bootpart} /initrd-${uname_r}; then
@@ -24,8 +25,6 @@ if test -e ${devtype} ${devnum}:${distro_bootpart} /uEnv/uEnv.txt; then
     load ${devtype} ${devnum}:${distro_bootpart} ${fdt_addr_r} /rk-kernel.dtb
 
     fdt addr ${fdt_addr_r}
-    fdt set /chosen bootargs
-
     echo [boot.cmd] booti ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
     booti ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
 fi
