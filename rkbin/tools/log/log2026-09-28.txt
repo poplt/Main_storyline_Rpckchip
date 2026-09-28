@@ -1,0 +1,88 @@
+20:26:22 	Error:RKU_Write failed, err=-1
+20:26:22 	Error: RKU_TestDeviceReady failed, err=-3
+20:26:22 	Error:RKU_Write failed, err=-1
+20:26:22 	Error: RKU_ReadFlashID failed, err=-3
+20:26:32 	Upgrade Tool v1.54
+
+20:26:32 	Current process in /home/poplt/RockChip/rkbin/tools
+20:26:32 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:26:32 	Upgrade Tool v1.54
+
+20:26:32 	Current process in /home/poplt/RockChip/rkbin/tools
+20:26:32 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:26:43 	Upgrade Tool v1.54
+
+20:26:43 	Current process in /home/poplt/RockChip/rkbin/tools
+20:26:43 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:27:09 	Upgrade Tool v1.54
+
+20:27:09 	Current process in /home/poplt/RockChip/rkbin/tools
+20:27:09 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:27:16 	Upgrade Tool v1.54
+
+20:27:16 	Current process in /home/poplt/RockChip/rkbin/tools
+20:27:16 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:27:16 	Error:RKU_Write failed,err=-1
+20:27:16 	Error:RKU_ReadChipInfo failed,err=-3
+20:27:16 	Upgrade Tool v1.54
+
+20:27:16 	Current process in /home/poplt/RockChip/rkbin/tools
+20:27:16 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:27:16 	Error:RKU_Write failed,err=-1
+20:27:16 	Error:RKU_ReadFlashInfo failed,err=-3
+20:27:16 	Upgrade Tool v1.54
+
+20:27:16 	Current process in /home/poplt/RockChip/rkbin/tools
+20:27:16 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:27:16 	Error:RKU_Write failed,err=-1
+20:27:16 	Error:RKU_ReadFlashID failed,err=-3
+20:28:00 	Upgrade Tool v1.54
+
+20:28:00 	Current process in /home/poplt/RockChip/rkbin/tools
+20:28:00 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:28:00 	Upgrade Tool v1.54
+
+20:28:00 	Current process in /home/poplt/RockChip/rkbin/tools
+20:28:00 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:28:00 	Error:RKU_Write failed,err=-1
+20:28:00 	Error:RKU_ReadFlashID failed,err=-3
+20:28:00 	Upgrade Tool v1.54
+
+20:28:00 	Current process in /home/poplt/RockChip/rkbin/tools
+20:28:00 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:28:00 	Error:RKU_Write failed,err=-1
+20:28:00 	Error:RKU_ReadFlashInfo failed,err=-3
+20:31:29 	Upgrade Tool v1.54
+
+20:31:29 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:29 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:31:33 	Upgrade Tool v1.54
+
+20:31:33 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:33 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:31:39 	Upgrade Tool v1.54
+
+20:31:39 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:39 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:31:39 	Upgrade Tool v1.54
+
+20:31:39 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:39 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:31:39 	Error:RKU_Write failed,err=-1
+20:31:39 	Error:RKU_ReadFlashID failed,err=-3
+20:31:39 	Upgrade Tool v1.54
+
+20:31:39 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:39 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:31:39 	Error:RKU_Write failed,err=-1
+20:31:39 	Error:RKU_ReadFlashInfo failed,err=-3
+20:31:39 	Upgrade Tool v1.54
+
+20:31:39 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:39 	Using /home/poplt/RockChip/rkbin/tools/config.ini
+20:31:39 	Error:RKU_Write failed,err=-1
+20:31:39 	Error:RKU_ReadChipInfo failed,err=-3
+20:31:45 	Upgrade Tool v1.54
+
+20:31:45 	Current process in /home/poplt/RockChip/rkbin/tools
+20:31:45 	Using /home/poplt/RockChip/rkbin/tools/config.ini
